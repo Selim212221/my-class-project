@@ -1,0 +1,83 @@
+body,h1,h2,h3,h4,h5,h6,p,span{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.lift{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear-1::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.header-section .dix-btn a{
+    text-decoration: none;
+    color: brown;
+}
+/* banner section */
+.fix-btn-2{
+    text-decoration: none; 
+    color: rgb(206, 108, 108);
+    display: inline-block;
+    text-decoration: none;
+    
+    margin: auto;
+}
+.banner-section{
+    background: url(./img/ia_200000012.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 180px 0;
+    position: relative;
+    z-index: 1;
+}
+.banner-section::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+.banner-section p{
+    color: white;
+}
+.banner-section h2{
+    color: white;
+}
+
+
+.test-1{
+    background-color: #f7f9ff;
+}
+.content{
+    position: relative;
+    top:150px;
+    left: 0;
+}
+
+
+.test-2 .left{
+    width: 40%;
+}
+.test-2 .right{
+    width: 55%;
+}
+
+.test-2 .left img{
+    width: 150px;
+}
+
+
+.test-3{
+    background-color: #f7f9ff;
+}
+.test-3 h1{
+    font-weight: 800;
+}
